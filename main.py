@@ -5,7 +5,6 @@ import base64
 
 from google.cloud import logging as cloud_logging
 
-# Import shared code from your published package.
 from timesheet_common_timesheet_mfdenison_hopkinsep.models import TimeLog
 from timesheet_common_timesheet_mfdenison_hopkinsep.serializers import TimeLogSerializer
 from timesheet_common_timesheet_mfdenison_hopkinsep.utils.dashboard import send_dashboard_update
